@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <h1>Library</h1>
+    <div class="button_plus"></div>
+  </nav>
+  <main>
+    <div class="container"></div>
+  </main>
+  <div class="displaynone">
+    <div class="popup">
+    <div class="button_close"></div>
+      <form id="form" action="" method="">
+        <input type="text" name="title" id="title" placeholder="Title" autocomplete="off" required/>
+        <input type="text" name="author" id="author" placeholder="Author" autocomplete="off" required/>
+        <input type="number" name="pages" id="pages" placeholder="Pages" autocomplete="off" required/>
+        <div class="checkbox">
+          <label for="checkbox">Have you read It?</label>
+          <input type="checkbox" name="checkbox" id="checkbox"/>
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
